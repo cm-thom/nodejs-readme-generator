@@ -57,8 +57,8 @@ inquirer.prompt([
 ])
 .then((data) => {
     console.log(data);
-    bigOleString = generateMarkdown(data);
-    writeToFile('./readme2.md', bigOleString);
+    infoStr = generateMarkdown(data);
+    writeToFile('./readme.md', infoStr);
 
 });
 
