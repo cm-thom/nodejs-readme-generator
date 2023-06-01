@@ -58,7 +58,7 @@ inquirer.prompt([
 .then((data) => {
     console.log(data);
     infoStr = generateMarkdown(data);
-    writeToFile('./readme.md', infoStr);
+    writeToFile('./generated/readme.md', infoStr);
 
 });
 
